@@ -7,12 +7,12 @@ import './App.css'
 
 const App = () => {
   return (
-    <Router>
+    <Router basename='/react-task'>
       <div>
         <div className='menu'>
           <NavLink to='/'>Haqqında</NavLink>
-          <NavLink to='portfolio'>İş Nümunələri</NavLink>
-          <NavLink to='contact'>Əlaqə</NavLink>
+          <NavLink to='/portfolio'>İş Nümunələri</NavLink>
+          <NavLink to='/contact'>Əlaqə</NavLink>
         </div>
 
 
