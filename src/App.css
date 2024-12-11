@@ -1,0 +1,19 @@
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 25px auto ;
+}
+
+
+h1 {
+  color: #2c3e50;
+}
+a{
+  text-decoration: none;
+}
+.box{
+  text-align: center;
+}
+
+
